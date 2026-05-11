@@ -4,7 +4,7 @@ name: Chocofi Temper
 type: shield
 url: https://github.com/raeedcho/chocofi-temper
 requires: [pro_micro]
-exposes: [i2c_oled]
+exposes: [nice_view]
 features:
   - keys
   - display
