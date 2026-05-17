@@ -22,13 +22,50 @@ layers:
     - {t: ',', s: ;}
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
-  - - cmd
-    - num
+  - - nav
+    - game_move
     - {t: ⇧, s: ⇪}
     - SPACE
-    - nav
+    - game_menu
     - {t: default, h: toggle}
-  game:
+  game_move:
+  - - Q
+    - Q
+    - W
+    - Q
+    - Q
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Q
+    - A
+    - S
+    - D
+    - Q
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Q
+    - Q
+    - Q
+    - Q
+    - Q
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Q
+    - {t: Q, type: held}
+    - Q
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  game_menu:
   - - ↹
     - Q
     - W
@@ -63,7 +100,7 @@ layers:
     - {t: ▽, type: trans}
     - SPACE
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
   num:
   - - '~'
@@ -91,7 +128,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - '0'
-    - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
   nav:
   - - {t: ▽, type: trans}
@@ -124,19 +161,19 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   fun:
-  - - {t: game, h: toggle}
+  - - {t: fun, h: toggle}
     - MUTE
     - VOL DN
     - VOL UP
     - OUT USB
-    - {t: game2, h: toggle}
+    - {t: ▽, type: trans}
     - F7
     - F8
     - F9
@@ -162,10 +199,10 @@ layers:
     - F3
     - F10
   - - {t: ▽, type: trans}
-    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   cmd:
   - - ⌘Q
@@ -198,46 +235,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  game2:
-  - - ↹
-    - Q
-    - X
-    - E
-    - R
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⇧
-    - A
-    - W
-    - D
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
-    - Z
-    - S
-    - C
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ESC
-    - {t: ▽, type: trans}
-    - SPACE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
