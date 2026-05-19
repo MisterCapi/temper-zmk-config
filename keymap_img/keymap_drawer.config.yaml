@@ -161,6 +161,7 @@ parse_config:
     SPACE: ⎵
   raw_binding_map:
     '&w_c_morph': {t: W, s: C}
+    '&e_nav': {t: E, s: '↑↓←→'}
     '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
     '&bspc_del': {t: '⌫', s: '⌦'}
