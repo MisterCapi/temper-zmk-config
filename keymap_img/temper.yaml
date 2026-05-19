@@ -199,7 +199,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - Q
-    - E
+    - {t: E, s: ↑↓←→}
     - SPACE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -225,7 +225,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -236,12 +236,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-combos:
-- p: [20, 31]
-  k: game_arrow
-  l: [game_move]
+    - {t: ▽, type: trans}
