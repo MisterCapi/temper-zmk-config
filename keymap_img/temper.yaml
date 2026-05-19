@@ -23,12 +23,12 @@ layers:
     - {t: ., s: ':'}
     - {t: '?', s: '!'}
   - - cmd
-    - o
+    - num
     - {t: ⇧, s: ⇪}
     - SPACE
     - nav
     - {t: default, h: toggle}
-  o:
+  num:
   - - '~'
     - '@'
     - '{'
