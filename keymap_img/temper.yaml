@@ -168,76 +168,113 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   game_move:
-  - - Q
-    - Q
+  - - ↹
+    - T
     - W
-    - Q
-    - Q
+    - I
+    - ESC
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - Q
+  - - R
     - A
     - S
     - D
-    - Q
+    - {t: game_menu, h: toggle}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - U
+    - B
+    - C
+    - '1'
+    - '2'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - Q
-    - Q
-    - Q
-    - Q
-    - Q
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - Q
-    - Q
-    - Q
+    - E
+    - SPACE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   game_menu:
   - - ↹
-    - Q
-    - W
-    - E
-    - R
+    - G
+    - I
+    - J
+    - ESC
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - ⇧
-    - A
-    - S
-    - D
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
+  - - {t: ⌃, h: sticky}
+    - {t: ⇧, h: sticky}
+    - {t: ⎇, h: sticky}
+    - P
     - Z
-    - X
-    - C
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - H
+    - K
+    - N
+    - M
     - V
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - ESC
+  - - X
+    - game_arrow
+    - {t: game_move, h: toggle}
     - {t: ▽, type: trans}
-    - SPACE
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  game_arrow:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ↑
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - ←
+    - ↓
+    - →
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
