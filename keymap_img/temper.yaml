@@ -170,7 +170,7 @@ layers:
   game_move:
   - - ESC
     - T
-    - W
+    - {t: W, s: C}
     - I
     - ↹
     - {t: ▽, type: trans}
@@ -182,13 +182,13 @@ layers:
     - A
     - S
     - D
-    - {t: game_menu, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - U
+    - {t: ▽, type: trans}
+  - - ⌃
     - B
     - C
     - '1'
@@ -201,43 +201,6 @@ layers:
   - - Q
     - E
     - SPACE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  game_menu:
-  - - ESC
-    - G
-    - I
-    - J
-    - Z
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ⌃, h: sticky}
-    - {t: ⇧, h: sticky}
-    - {t: ⎇, h: sticky}
-    - P
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - H
-    - K
-    - N
-    - M
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - X
-    - game_arrow
-    - {t: game_move, h: toggle}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
