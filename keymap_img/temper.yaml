@@ -168,11 +168,11 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   game_move:
-  - - ↹
+  - - ESC
     - T
     - W
     - I
-    - ESC
+    - ↹
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -205,11 +205,11 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   game_menu:
-  - - ↹
+  - - ESC
     - G
     - I
     - J
-    - ESC
+    - Z
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
     - {t: ⇧, h: sticky}
     - {t: ⎇, h: sticky}
     - P
-    - Z
+    - F
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
