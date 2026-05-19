@@ -188,7 +188,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - U
+  - - ⌃
     - B
     - C
     - '1'
@@ -215,7 +215,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - {type: held}
     - ←
     - ↓
     - →
@@ -241,3 +241,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+combos:
+- p: [10, 31]
+  k: game_arrow
+  l: [game_move]
