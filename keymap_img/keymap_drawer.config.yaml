@@ -162,6 +162,16 @@ parse_config:
   raw_binding_map:
     '&w_c_morph': {t: W, s: C}
     '&e_nav': {t: E, s: '↑↓←→'}
+    '&n1_g_morph': {t: '1', s: G}
+    '&n2_i_morph': {t: '2', s: I}
+    '&h_z_morph': {t: H, s: Z}
+    '&a_b_morph': {t: A, s: B}
+    '&s_u_morph': {t: S, s: U}
+    '&d_p_morph': {t: D, s: P}
+    '&k_n_morph': {t: K, s: N}
+    '&t_v_morph': {t: T, s: V}
+    '&r_m_morph': {t: R, s: M}
+    '&q_x_morph': {t: Q, s: X}
     '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
     '&bspc_del': {t: '⌫', s: '⌦'}
