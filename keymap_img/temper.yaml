@@ -169,37 +169,37 @@ layers:
     - {t: ▽, type: trans}
   game_move:
   - - ESC
-    - T
+    - {t: '1', s: G}
     - {t: W, s: C}
-    - I
-    - ↹
+    - {t: '2', s: I}
+    - {t: H, s: Z}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - R
-    - A
-    - S
-    - D
-    - {t: ▽, type: trans}
+  - - ↹
+    - {t: A, s: B}
+    - {t: S, s: U}
+    - {t: D, s: P}
+    - {t: K, s: N}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - ⌃
-    - B
-    - C
-    - '1'
-    - '2'
+    - ⇧
+    - ⎇
+    - {t: T, s: V}
+    - {t: R, s: M}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - Q
-    - E
+  - - {t: Q, s: X}
+    - {t: E, s: '↑↓←→'}
     - SPACE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

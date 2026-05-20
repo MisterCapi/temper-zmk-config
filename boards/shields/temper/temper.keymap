@@ -89,6 +89,66 @@
             bindings = <&kp E>, <&mo GAME_ARROW>;
             mods = <(MOD_LCTL)>;
         };
+        n1_g_morph: n1_g_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N1>, <&kp G>;
+            mods = <(MOD_LCTL)>;
+        };
+        n2_i_morph: n2_i_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N2>, <&kp I>;
+            mods = <(MOD_LCTL)>;
+        };
+        h_z_morph: h_z_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp H>, <&kp Z>;
+            mods = <(MOD_LCTL)>;
+        };
+        a_b_morph: a_b_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp B>;
+            mods = <(MOD_LCTL)>;
+        };
+        s_u_morph: s_u_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp S>, <&kp U>;
+            mods = <(MOD_LCTL)>;
+        };
+        d_p_morph: d_p_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp D>, <&kp P>;
+            mods = <(MOD_LCTL)>;
+        };
+        k_n_morph: k_n_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp K>, <&kp N>;
+            mods = <(MOD_LCTL)>;
+        };
+        t_v_morph: t_v_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp T>, <&kp V>;
+            mods = <(MOD_LCTL)>;
+        };
+        r_m_morph: r_m_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp R>, <&kp M>;
+            mods = <(MOD_LCTL)>;
+        };
+        q_x_morph: q_x_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp X>;
+            mods = <(MOD_LCTL)>;
+        };
     };
         keymap {
                 compatible = "zmk,keymap";
@@ -165,13 +225,13 @@
                 game_move_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp ESC       &kp T       &w_c_morph      &kp I         &kp TAB           ______        ______        ______        ______        ______
+        &kp ESC      &n1_g_morph   &w_c_morph   &n2_i_morph   &h_z_morph         ______        ______        ______        ______        ______
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp R         &kp A         &kp S         &kp D          ______           ______        ______        ______        ______        ______
+        &kp TAB      &a_b_morph    &s_u_morph    &d_p_morph    &k_n_morph         ______        ______        ______        ______        ______
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LCTRL       &kp B         &kp C         &kp N1        &kp N2            ______        ______        ______        ______        ______
+      &kp LCTRL     &kp LSHFT     &kp LALT      &t_v_morph    &r_m_morph         ______        ______        ______        ______        ______
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &kp Q         &e_nav      &kp SPACE           ______        ______        ______
+                                   &q_x_morph    &e_nav       &kp SPACE           ______        ______        ______
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
